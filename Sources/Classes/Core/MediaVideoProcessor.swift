@@ -11,7 +11,7 @@ import AVFoundation
 
 let kMediaContentDefaultScale: CGFloat = 1
 let timeStamp = String((UInt64(Date().timeIntervalSince1970 + 62_135_596_800)))
-let kProcessedTemporaryVideoFileName = String(format: "%@_processed.mov",timeStamp)
+let kProcessedTemporaryVideoFileName = String(format: "/%@_processed.mov",timeStamp)
 let kMediaContentTimeValue: Int64 = 1
 let kMediaContentTimeScale: Int32 = 30
 
